@@ -18,7 +18,6 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   Just leave some thoughts of mine!
 github_username: Luke0125
-minimal_mistakes_skin: dirt
 search: true
 breadcrumbs: true
 repository: "https://github.com/BlackBear2003/BlackBear2003.github.io"
