@@ -10,13 +10,13 @@
 
     var script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
-    script.setAttribute('data-repo', '{{ site.repository | downcase }}');
-    script.setAttribute('data-repo-id', '{{ site.comments.giscus.repo_id }}');
-    script.setAttribute('data-category', '{{ site.comments.giscus.category_name }}');
-    script.setAttribute('data-category-id', '{{ site.comments.giscus.category_id }}');
-    script.setAttribute('data-mapping', '{{ site.comments.giscus.discussion_term | default: "pathname" }}');
-    script.setAttribute('data-reactions-enabled', '{{ site.comments.giscus.reactions_enabled | default: 1 }}');
-    script.setAttribute('data-theme', '{{ site.comments.giscus.theme | default: "light" }}');
+    script.setAttribute('data-repo', 'BlackBear2003/BlackBear2003.github.io');
+    script.setAttribute('data-repo-id', 'R_kgDOLWCauQ');
+    script.setAttribute('data-category','Q&A');
+    script.setAttribute('data-category-i', 'DIC_kwDOLWCauc4CdaGn');
+    script.setAttribute('data-mapping', '{{ comments.giscus.discussion_term | default: "pathname" }}');
+    script.setAttribute('data-reactions-enabled', '{{ comments.giscus.reactions_enabled | default: 1 }}');
+    script.setAttribute('data-theme', '{{ comments.giscus.theme | default: "light" }}');
     script.setAttribute('crossorigin', 'anonymous');
 
     commentContainer.appendChild(script);
