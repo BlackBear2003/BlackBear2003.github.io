@@ -53,9 +53,12 @@ include:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
   - jekyll-include-cache
-  - jekyll-webmention_io
 
 author:
   name   : "Luke"
