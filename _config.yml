@@ -54,8 +54,6 @@ include:
 
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-webmention_io
