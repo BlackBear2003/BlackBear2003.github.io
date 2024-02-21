@@ -27,7 +27,10 @@ google_site_verification: G-FXMGVHJBB4
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+kramdown:
+  math_engine: mathjax
+  toc_levels: 1..6
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
